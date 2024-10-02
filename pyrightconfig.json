@@ -1,0 +1,16 @@
+{
+  "typeCheckingMode": "strict",
+  "pythonVersion": "3.12",
+  "include": [
+    "result_monad_example.py",
+    "lbyl_eafp_example.py"
+  ],
+  "exclude": [
+    "**/node_modules",
+    "**/__pycache__",
+    "**/*.pyc"
+  ],
+  "reportMissingImports": true,
+  "reportMissingTypeStubs": true,
+  "reportGeneralTypeIssues": true
+}

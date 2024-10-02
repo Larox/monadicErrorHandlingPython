@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pycones2024"
+version = "0.1.0"
+description = "Beyond Try-Except: Python's Frontier of Error Handling with Monads and Railway Magic"
+authors = ["Sebastian Arias <sarias@stackbuilders.com>"]
+license = "mit"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+result = "^0.17.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pyright = "^1.1.382.post1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
