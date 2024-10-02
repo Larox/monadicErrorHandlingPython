@@ -26,6 +26,7 @@ The repository contains two key files for comparison:
   - Demonstrates the **LBYL** and **EAFP** error-handling methods.
   - This file uses try/except blocks and manual error checks to manage errors.
 - **2. `result_monad_example.py`**:
+  - Usage of [Result](https://github.com/rustedpy/result) library.
   - Refactors the same use case using the **Results Monad** to manage errors.
   - This file introduces functional error propagation using monads, along with Python's pattern matching for clean, concise handling of results.
 
