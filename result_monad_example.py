@@ -55,7 +55,7 @@ print(process_order([Item("PyCon ES Ticket", 50, 2)]))
 # Error case total is greater than limit
 print(process_order([Item("PyCon ES Ticket", 50, 100)]))
 
-# Error case total is greater than limit
+# Error case quatity is 0 or less
 print(process_order([Item("PyCon ES Ticket", 50, 0)]))
 
 # Error case item list is empty
