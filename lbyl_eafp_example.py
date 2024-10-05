@@ -41,7 +41,7 @@ def process_payment(total: int) -> str:
     try:
         if total > 1000:
             raise RuntimeError("Payment exceeds the allowed limit")
-        return f"Payment of ${total} processed "
+        return f"Payment of ${total} processed"
     except RuntimeError as e:
         return f"Error: {str(e)}"
 
