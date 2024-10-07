@@ -1,6 +1,6 @@
 # 🚀 Beyond Try-Except: Python's Frontier of Error Handling with Monads and Railway Magic
 
-This repository includes the example used in PyCon ES 2024 talk and summarizes the two approaches to error handling in Python:
+This repository includes the example used in [PyCon ES 2024](https://pretalx.com/pycones-2024/talk/7TKB3L/) talk and summarizes the two approaches to error handling in Python:
 
 1. **Traditional Error Handling**: Using the LBYL (Look Before You Leap) and EAFP (Easier to Ask for Forgiveness than Permission) paradigms.
 2. **Monadic Error Handling**: Using the Results Monad to handle errors in a functional, structured, and maintainable way.
